@@ -1,0 +1,55 @@
+.theme-btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  // color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 20px;
+  gap: 10px;
+
+  min-width: 88px;
+  height: 40px;
+  background: #000;
+  border: none;
+
+  &.outline-btn {
+    border: 1px solid #000000;
+    background-color: #fff;
+    color: #000;
+
+    &:hover {
+      border: 1px solid #000000;
+      background-color: #fff;
+      color: #000;
+    }
+  }
+
+  &.white-btn {
+    background-color: #fff;
+    color: #000;
+    &:hover {
+      background: #fff;
+      color: #000;
+    }
+  }
+
+  &:hover {
+    background: #000;
+    color: #fff;
+  }
+}
+
+.theme-link {
+  color: $primary-color;
+  text-decoration: underline;
+  transition: 0.5s ease all;
+}

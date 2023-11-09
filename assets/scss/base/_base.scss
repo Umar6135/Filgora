@@ -1,0 +1,106 @@
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+
+body {
+    color: #626161;
+    font-size: 13px;
+    font-family: $fontMain;
+    background: #ffffff;
+    line-height: 30px;
+    letter-spacing: normal;
+    margin: 0;
+    overflow-y: auto;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    position: relative;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+
+button:focus {
+    outline: unset;
+    box-shadow: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+    width: 100% !important;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.form-control:focus,
+.form-select:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.theme-color {
+    color: $primary-color;
+}
+
+.bg-green {
+    background-color: $secondry-color;
+}
+
+.dark-text {
+    color: #713C25;
+}
+
+.container{
+
+}
